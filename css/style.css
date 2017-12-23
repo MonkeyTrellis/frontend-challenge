@@ -35,10 +35,10 @@ img {
 }
 
 h1 {
-  margin-left: 50px;
-  padding-top: 27px;
+  margin-left: 70px;
+  padding-top: 30px;
   font-style: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
   letter-spacing: 1px;
 }
 
@@ -62,18 +62,19 @@ h1 {
   margin-left: 115px;
 }
 
+
 /* Box 1 */
 
-.box1 {
+#box1 {
   height: 63px;
   width: inherit;
   background-color: #f7f7f7;
 }
 
 h2 {
+  float: left;
   font-size: 1.5em;
   font-weight: bolder;
-  float: left;
   margin: 15px 10px 13px 15px;
   color: #00484E;
 }
@@ -83,6 +84,7 @@ h2 {
   position: relative;
   font-size: 1em;
   color: #00484E;
+  margin: 0px auto;
   padding-left: 0px;
 }
 
@@ -98,16 +100,17 @@ h2 {
   float: left;
   position: relative;
   color: #00484E;
+  margin: 0px auto;
   padding-left: 0px;
 }
 
-.minutes-1 {
+#minutes-1 {
   font-size: 1.4em;
   font-weight: 600;
   margin: 4px 0px 0px 93px;
 }
 
-.time-1 {
+#time-1 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -115,93 +118,92 @@ h2 {
 }
 
 
-.ellipses-1 {
+#ellipses-1 {
   float: right;
   margin: 27px 15px 27px 0px;
 }
 
 /* Box 2 */
 
-.box2 {
+#box2 {
   height: 63px;
   width: inherit;
 }
 
-.minutes-2 {
+#minutes-2 {
   font-size: 1.4em;
   font-weight: 600;
   margin: 4px 0px 0px 81px;
 }
 
-.time-2 {
+#time-2 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 0px 0px 0px 83px;
 }
 
-
-.ellipses-2 {
+#ellipses-2 {
   float: right;
   margin: 27px 15px 27px 0px;
 }
 
 /* Box 3 */
 
-.box3 {
+#box3 {
   height: 63px;
   width: inherit;
   background-color: #f7f7f7;
 }
 
-.destination-3 {
+#destination-3 {
   margin: 8px 0px 0px 17px;
 }
 
-.direction-3 {
+#direction-3 {
   margin: 4px 0px 5px 17px;
 }
 
-.minutes-3 {
+#minutes-3 {
   font-size: 1.4em;
   font-weight: 600;
   margin: 4px 0px 0px 26px;
 }
 
-.time-3 {
+#time-3 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 0px 0px 0px 28px;
 }
 
-.ellipses-3 {
+#ellipses-3 {
   float: right;
   margin: 27px 15px 27px 0px;
 }
 
 /* Box 4 */
 
-.box4 {
+#box4 {
   height: 63px;
   width: inherit;
 }
 
-.destination-4 {
+#destination-4 {
   margin: 8px 0px 0px 10px;
 }
 
-.direction-4 {
+#direction-4 {
   margin: 4px 0px 5px 10px;
 }
 
-.minutes-4 {
+#minutes-4 {
   font-size: 1.4em;
   font-weight: 600;
   margin: 4px 0px 0px 83px;
 }
 
-.time-4 {
+#time-4 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -209,180 +211,185 @@ h2 {
 }
 
 
-.ellipses-4 {
+#ellipses-4 {
   float: right;
   margin: 27px 15px 27px 0px;
 }
 
 /* Box 5 */
 
-.box5 {
+#box5 {
   height: 63px;
   width: inherit;
   background-color: #f7f7f7;
 }
 
-.destination-5 {
+#destination-5 {
   margin: 8px 0px 0px 24px;
 }
 
-.direction-5 {
+#direction-5 {
   margin: 4px 0px 5px 24px;
 }
 
-.minutes-5 {
+#minutes-5 {
   font-size: 1.4em;
   font-weight: 600;
   margin: 4px 0px 0px 22px;
 }
 
-.time-5 {
+#time-5 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 0px 0px 0px 23px;
 }
 
-.ellipses-5 {
+#ellipses-5 {
   float: right;
   margin: 27px 15px 27px;
 }
 
 /* Box 6 */
 
-.box6 {
+#box6 {
   height: 63px;
   width: inherit;
 }
 
-.destination-6 {
+#destination-6 {
   margin: 8px 0px 0px 22px;
 }
 
-.direction-6 {
+#direction-6 {
   margin: 4px 0px 5px 22px;
   font-style: italic;
 }
 
-.minutes-6 {
+#minutes-6 {
   font-size: 1.4em;
   font-weight: 600;
   margin: 4px 0px 0px 19px;
 }
 
-.time-6 {
+#time-6 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 0px 0px 0px 20px;
 }
 
-.ellipses-6 {
+#ellipses-6 {
   float: right;
   margin: 27px 15px 27px;
 }
 
 /* Box 7 */
 
-.box7 {
+#box7 {
   height: 63px;
   width: inherit;
   background-color: #f7f7f7;
 }
 
-.destination-7 {
+#destination-7 {
   margin: 8px 0px 0px 35px;
 }
 
-.direction-7 {
+#direction-7 {
   margin: 4px 0px 5px 35px;
   font-style: italic;
 }
 
-.minutes-7 {
+#minutes-7 {
   font-size: 1.1em;
   font-weight: 600;
   margin: 7px 0px 0px 70px;
 }
 
-.time-7 {
+#time-7 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 3px 0px 0px 70px;
 }
 
-.ellipses-7 {
+#ellipses-7 {
   float: right;
   margin: 27px 15px 27px 0px;
 }
 
 /* Box 8 */
 
-.box8 {
+#box8 {
   height: 63px;
   width: inherit;
 }
 
-.destination-8 {
+#destination-8 {
   margin: 8px 0px 0px 21px;
 }
 
-.direction-8 {
+#direction-8 {
   margin: 4px 0px 5px 21px;
   font-style: italic;
 }
 
-.minutes-8 {
+#minutes-8 {
   font-size: 1.1em;
   font-weight: 600;
   margin: 7px 0px 0px 71px;
 }
 
-.time-8 {
+#time-8 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 3px 0px 0px 71px;
 }
 
-.ellipses-8 {
+#ellipses-8 {
   float: right;
-  margin: 27px 15px 27px;
+  margin: 27px 15px 27px 0px;
 }
 
 
 /* Box 9 */
 
-.box9 {
+
+#box9 {
   height: 63px;
   width: inherit;
   background-color: #f7f7f7;
 }
 
-.destination-9 {
+#destination-9 {
   margin: 8px 0px 0px 6px;
 }
 
-.direction-9 {
+#direction-9 {
   margin: 4px 0px 5px 6px;
   font-style: italic;
 }
 
-.minutes-9 {
+#minutes-9 {
   font-size: 1.1em;
   font-weight: 600;
   margin: 7px 0px 0px 38px;
 }
 
-.time-9 {
+#time-9 {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin: 3px 0px 0px 39px;
 }
 
-.ellipses-9 {
+#ellipses-9 {
   float: right;
-  margin: 27px 15px 27px;
+  margin: 27px 15px 27px 0px;
 }
+
+/* div.box:nth-child (2n+1) {
+  background-color: blue;
+} */
