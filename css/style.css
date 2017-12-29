@@ -11,17 +11,19 @@ body {
 .container {
   display: block;
   width: 375px;
-  height: 667px;
+  height: 602px;
   margin: 0 auto;
 }
 
 
-/* Top Bar w/ Back Button */
+/* Header w/ Back Button */
 
-.topbar {
+header {
   height: 65px;
+  width: 375px;
   background-color: #00484E;
   color: #ffffff;
+  margin: auto;
 }
 
 img {
@@ -35,49 +37,46 @@ img {
 }
 
 h1 {
-  margin-left: 70px;
+  margin: 0px 0px 0px 70px;
   padding-top: 30px;
   font-style: bold;
   font-size: 1.3em;
   letter-spacing: 1px;
 }
 
-
-/* Headings */
+/* Headings "Upcoming Buses" and "Arrival" */
 
 .headings {
   height: 35px;
   font-style: italic;
   color: #00484E;
   border-bottom: .5px solid #95C3C7;
+  margin-top: -16px;
 }
 
 .upcoming {
   float: left;
+  margin-top: 6px;
   margin-left: -25px;
 }
 
 .arrival {
   float: left;
+  margin-top: 6px;
   margin-left: 115px;
 }
 
 
-/* Box 1 */
 
-#box1 {
+/* Box heighst and widths within <main> */
+
+.box {
   height: 63px;
   width: inherit;
-  background-color: #f7f7f7;
 }
 
-h2 {
-  float: left;
-  font-size: 1.5em;
-  font-weight: bolder;
-  margin: 15px 10px 13px 15px;
-  color: #00484E;
-}
+
+/* Destination and Direction text */
 
 .dest-and-dir {
   float: left;
@@ -88,13 +87,19 @@ h2 {
   padding-left: 0px;
 }
 
-.destination {
-  margin: 8px 0px 0px 12px;
+
+/* Bus Number/Line text */
+
+h2 {
+  float: left;
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin: 15px 10px 13px 15px;
+  color: #00484E;
 }
 
-.direction {
-  margin: 4px 0px 5px 12px;
-}
+
+/* Arrival times and minutes until arrival */
 
 .times {
   float: left;
@@ -104,55 +109,82 @@ h2 {
   padding-left: 0px;
 }
 
-#minutes-1 {
+
+/* Minutes text */
+
+.minutes {
   font-size: 1.4em;
   font-weight: 600;
+}
+
+
+/* Time text */
+
+.time {
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Resumes text */
+
+.resumes {
+  font-size: 1.1em;
+}
+
+/*  Ellipses */
+
+.ellipses {
+  float: right;
+}
+
+
+
+/* Box 1 Specific */
+
+#box1 {
+  background-color: #f7f7f7;
+}
+
+.destination {
+  margin: 8px 0px 0px 12px;
+}
+
+.direction {
+  margin: 4px 0px 5px 12px;
+}
+
+#minutes-1 {
   margin: 4px 0px 0px 93px;
 }
 
 #time-1 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 0px 0px 0px 95px;
 }
 
-
 #ellipses-1 {
-  float: right;
   margin: 27px 15px 27px 0px;
 }
 
-/* Box 2 */
 
-#box2 {
-  height: 63px;
-  width: inherit;
-}
+/* Box 2 Specific*/
 
 #minutes-2 {
-  font-size: 1.4em;
-  font-weight: 600;
   margin: 4px 0px 0px 81px;
 }
 
 #time-2 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 0px 0px 0px 83px;
 }
 
 #ellipses-2 {
-  float: right;
   margin: 27px 15px 27px 0px;
 }
 
-/* Box 3 */
+
+/* Box 3 Specific */
 
 #box3 {
-  height: 63px;
-  width: inherit;
   background-color: #f7f7f7;
 }
 
@@ -165,29 +197,19 @@ h2 {
 }
 
 #minutes-3 {
-  font-size: 1.4em;
-  font-weight: 600;
   margin: 4px 0px 0px 26px;
 }
 
 #time-3 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 0px 0px 0px 28px;
 }
 
 #ellipses-3 {
-  float: right;
   margin: 27px 15px 27px 0px;
 }
 
-/* Box 4 */
 
-#box4 {
-  height: 63px;
-  width: inherit;
-}
+/* Box 4 Specific*/
 
 #destination-4 {
   margin: 8px 0px 0px 10px;
@@ -198,29 +220,21 @@ h2 {
 }
 
 #minutes-4 {
-  font-size: 1.4em;
-  font-weight: 600;
   margin: 4px 0px 0px 83px;
 }
 
 #time-4 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 0px 0px 0px 85px;
 }
 
-
 #ellipses-4 {
-  float: right;
   margin: 27px 15px 27px 0px;
 }
 
-/* Box 5 */
+
+/* Box 5 Specific */
 
 #box5 {
-  height: 63px;
-  width: inherit;
   background-color: #f7f7f7;
 }
 
@@ -233,29 +247,19 @@ h2 {
 }
 
 #minutes-5 {
-  font-size: 1.4em;
-  font-weight: 600;
   margin: 4px 0px 0px 22px;
 }
 
 #time-5 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 0px 0px 0px 23px;
 }
 
 #ellipses-5 {
-  float: right;
   margin: 27px 15px 27px;
 }
 
-/* Box 6 */
 
-#box6 {
-  height: 63px;
-  width: inherit;
-}
+/* Box 6 Specific*/
 
 #destination-6 {
   margin: 8px 0px 0px 22px;
@@ -267,28 +271,21 @@ h2 {
 }
 
 #minutes-6 {
-  font-size: 1.4em;
-  font-weight: 600;
   margin: 4px 0px 0px 19px;
 }
 
 #time-6 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 0px 0px 0px 20px;
 }
 
 #ellipses-6 {
-  float: right;
   margin: 27px 15px 27px;
 }
 
-/* Box 7 */
+
+/* Box 7 Specific */
 
 #box7 {
-  height: 63px;
-  width: inherit;
   background-color: #f7f7f7;
 }
 
@@ -301,30 +298,20 @@ h2 {
   font-style: italic;
 }
 
-#minutes-7 {
-  font-size: 1.1em;
-  font-weight: 600;
+#resumes-1 {
   margin: 7px 0px 0px 70px;
 }
 
 #time-7 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 3px 0px 0px 70px;
 }
 
 #ellipses-7 {
-  float: right;
   margin: 27px 15px 27px 0px;
 }
 
-/* Box 8 */
 
-#box8 {
-  height: 63px;
-  width: inherit;
-}
+/* Box 8 Specific*/
 
 #destination-8 {
   margin: 8px 0px 0px 21px;
@@ -335,31 +322,22 @@ h2 {
   font-style: italic;
 }
 
-#minutes-8 {
-  font-size: 1.1em;
-  font-weight: 600;
+#resumes-2 {
   margin: 7px 0px 0px 71px;
 }
 
 #time-8 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 3px 0px 0px 71px;
 }
 
 #ellipses-8 {
-  float: right;
   margin: 27px 15px 27px 0px;
 }
 
 
-/* Box 9 */
-
+/* Box 9 Specific */
 
 #box9 {
-  height: 63px;
-  width: inherit;
   background-color: #f7f7f7;
 }
 
@@ -372,24 +350,14 @@ h2 {
   font-style: italic;
 }
 
-#minutes-9 {
-  font-size: 1.1em;
-  font-weight: 600;
+#resumes-3 {
   margin: 7px 0px 0px 38px;
 }
 
 #time-9 {
-  font-size: 1em;
-  margin-top: 0px;
-  margin-bottom: 0px;
   margin: 3px 0px 0px 39px;
 }
 
 #ellipses-9 {
-  float: right;
   margin: 27px 15px 27px 0px;
 }
-
-/* div.box:nth-child (2n+1) {
-  background-color: blue;
-} */
