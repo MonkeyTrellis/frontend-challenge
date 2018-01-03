@@ -12,163 +12,175 @@
 
 <!-- top bar with bus stop name + back button -->
 
-    <header class="topbar">
-      <img src="images/topinfo.png" class="topinfo" alt="ios info at top">
+    <header>
+      <img src="images/topinfo.png" alt="ios info at top">
       <img src="images/backbutton.png" class="backbutton" alt="back button">
       <h1>WASHINGTON + STATE</h1>
     </header>
 
 
-<!--  map -->
+<!--  container and map -->
 
     <main class="container">
-      <div class="map">
-      <!-- <img src="images/map.png" class="map" alt="real time map"> -->
-      </div>
+
+      <section class="map">
+      <img src="images/map.jpg" class="map" alt="real time map">
+      </section>
+
 
 <!-- upcoming buses + arrival -->
 
-      <div class="headings">
+      <section class="headings">
         <ul style="list-style-type:none">
           <li class="upcoming">Upcoming Buses</li>
           <li class="arrival">Arrival</li>
         </ul>
-      </div>
+      </section>
+
 
 <!--  box 1 of list -->
 
-      <div class="box" id="box1">
+      <section class="box" id="box1">
         <h2>124</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li class="destination">Navy Pier</li>
-              <li class="direction">Eastbound</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="minutes" id="minutes-1">10 min.</li>
-            <li class="time" id="time-1">9:51 am</li>
-          </ul>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class="destination">Navy Pier</li>
+          <li class="direction">Eastbound</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="minutes">1 min.</li>
+          <li class="time">9:42 am</li>
+        </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-1" alt="ellipses">
-      </div>
+      </section>
 
-<!--  box 2 of list -->
 
-      <div class="box" id="box2">
+  <!--  box 2 of list -->
+
+      <section class="box">
         <h2>124</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li class="destination">Navy Pier</li>
-              <li class="direction">Southbound</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="minutes" id="minutes-2">10 min.</li>
-            <li class="time" id="time-2">9:51 am</li>
-          </ul>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class="destination">Navy Pier</li>
+          <li class="direction">Southbound</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="minutes">2 min.</li>
+          <li class="time">9:43 am</li>
+        </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-2" alt="ellipses">
-      </div>
+      </section>
 
-<!--  box 3 of list -->
 
-      <div class="box" id="box3">
+  <!--  box 3 of list -->
+
+      <section class="box" id="box3">
         <h2>J14</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li id="destination-3">103rd/Stoney Island</li>
-              <li id="direction-3">Southbound</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="minutes" id="minutes-3">15 min.</li>
-            <li class="time" id="time-3">9:56 am</li>
-          </ul>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class="destination">103rd/Stoney Island</li>
+          <li class="direction">Southbound</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="minutes">6 min.</li>
+          <li class="time">9:47 am</li>
+        </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-3" alt="ellipses">
-      </div>
+      </section>
 
-<!--  box 4 of list -->
 
-      <div class="box" id="box4">
-        <h2>151</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li id="destination-4">Devon/Clark</li>
-              <li id="direction-4">Northbound</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="minutes" id="minutes-4">16 min.</li>
-            <li class="time" id="time-4">9:57 am</li>
-          </ul>
-        <img src="images/ellipses.png" class="ellipses" id="ellipses-4" alt="ellipses">
-      </div>
+  <!--  box 4 of list -->
 
-<!--  box 5 of list -->
+      <section class="box" id="box4">
+        <img src="images/triangle.png" id="triangle" alt="your bus line">
+        <h2 id="yourline">151</h2>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class="destination" id="destination-4">Devon/Clark</li>
+          <li class="direction" id="direction-4">Northbound</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="minutes" id="minutes-4">7 min.</li>
+          <li class="time" id="time-4">9:48 am</li>
+        </ul>
+        <img src="images/ellipseswhite.png" class="ellipses" id="ellipses-4" alt="ellipses">
+      </section>
 
-      <div class="box" id="box5">
+
+    <!--  box 5 of list -->
+
+      <section class="box" id="box5">
         <h2>60</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li id="destination-5">Randolph/Harbor Dr.</li>
-              <li id="direction-5">Eastbound</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="minutes" id="minutes-5">20 min.</li>
-            <li class="time" id="time-5">10:01 am</li>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class= "destination">Randolph/Harbor Dr.</li>
+          <li class="direction">Eastbound</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="minutes">11 min.</li>
+          <li class="time">9:52 am</li>
           </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-5" alt="ellipses">
-      </div>
+      </section>
 
-<!--  box 6 of list -->
 
-      <div class="box" id="box6">
+    <!--  box 6 of list -->
+
+      <section class="box">
         <h2>6X</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li id="destination-6">Jackson Park Express</li>
-              <li id="direction-6">Reroute</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="minutes" id="minutes-6">30 min.</li>
-            <li class="time" id="time-6">10:11 am</li>
-          </ul>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class= "destination">Jackson Park Express</li>
+          <li class="direction">Reroute</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="minutes">21 min.</li>
+          <li class="time">10:02 am</li>
+        </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-6" alt="ellipses">
-      </div>
+      </section>
 
-<!--  box 7 of list -->
 
-      <div class="box" id="box7">
+    <!--  box 7 of list -->
+
+      <section class="box" id="box7">
         <h2>4</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li id="destination-7">Cottage Grove</li>
-              <li id="direction-7">Out of Service</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="resumes" id="resumes-1">Resumes</li>
-            <li class="time" id="time-7">12:10 am</li>
-          </ul>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class= "destination">Cottage Grove</li>
+          <li class="direction">Out of Service</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="resumes">Resumes</li>
+          <li class="time">12:10 am</li>
+        </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-7" alt="ellipses">
-      </div>
+      </section>
 
-<!--  box 8 of list -->
 
-      <div class="box" id="box8">
+    <!--  box 8 of list -->
+
+      <section class="box">
         <h2>20</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li id="destination-8">Madison</li>
-              <li id="direction-8">Out of Service</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="resumes" id="resumes-2">Resumes</li>
-            <li class="time" id="time-8">12:10 am</li>
-          </ul>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class= "destination">Madison</li>
+          <li class="direction">Out of Service</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="resumes">Resumes</li>
+          <li class="time">12:10 am</li>
+        </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-8" alt="ellipses">
-      </div>
+      </section>
 
-<!--  box 9 of list -->
 
-      <div class="box" id="box9">
+    <!--  box 9 of list -->
+
+      <section class="box" id="box9">
         <h2>157</h2>
-          <ul style="list-style-type:none" class="dest-and-dir">
-              <li id="destination-9">Streeterville/Taylor</li>
-              <li id="direction-9">Out of Service</li>
-          </ul>
-          <ul style="list-style-type:none" class="times">
-            <li class="resumes" id="resumes-3">Resumes</li>
-            <li class="time" id="time-9">6:00 am</li>
-          </ul>
+        <ul style="list-style-type:none" class="dest-and-dir">
+          <li class= "destination">Streeterville/Taylor</li>
+          <li class="direction">Out of Service</li>
+        </ul>
+        <ul style="list-style-type:none" class="times">
+          <li class="resumes">Resumes</li>
+          <li class="time">6:00 am</li>
+        </ul>
         <img src="images/ellipses.png" class="ellipses" id="ellipses-9" alt="ellipses">
-      </div>
+      </section>
 
     </main>
   </body>
